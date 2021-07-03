@@ -9,9 +9,9 @@ HC-05 is a Bluetooth module which can communicate in two way. Which means, It is
 
 
 # Technical Specifications
-Operating Voltage: 4V to 6V (Typically +5V)
-Operating Current: 30mA
-Range: <100m
+    Operating Voltage: 4V to 6V (Typically +5V)
+    Operating Current: 30mA
+    Range: <100m
 
 
 
