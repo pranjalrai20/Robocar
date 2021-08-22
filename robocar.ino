@@ -9,7 +9,7 @@ void forward()
   digitalWrite(m21, HIGH);
   digitalWrite(m22, LOW);
 }
-void left()
+void right()
 {
   digitalWrite(m11, LOW);
   digitalWrite(m12, HIGH);
@@ -23,7 +23,7 @@ void backward()
   digitalWrite(m21, LOW);
   digitalWrite(m22, HIGH);
 }
-void right()
+void left()
 {
   digitalWrite(m11, HIGH);
   digitalWrite(m12, LOW);
@@ -59,13 +59,13 @@ void loop()
     else if(data =='2') //left
     {
       Serial.println("Left");
-      right();
+      left();
     
     }
     else if(data =='3') //right
     {
       Serial.println("right");
-      left();
+      right();
     
     }
     
